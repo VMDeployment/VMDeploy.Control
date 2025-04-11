@@ -39,16 +39,19 @@
 	# FormatsToProcess = @('xml\VMDeploy.Control.Format.ps1xml')
 	
 	# Functions to export from this module
-	FunctionsToExport = ''
+	FunctionsToExport = @(
+		'Connect-VMDeploy'
+		'Disconnect-VMDeploy'
+	)
 	
 	# Cmdlets to export from this module
-	CmdletsToExport = ''
+	CmdletsToExport = @()
 	
 	# Variables to export from this module
-	VariablesToExport = ''
+	VariablesToExport = @()
 	
 	# Aliases to export from this module
-	AliasesToExport = ''
+	AliasesToExport = @()
 	
 	# List of all modules packaged with this module
 	ModuleList = @()
